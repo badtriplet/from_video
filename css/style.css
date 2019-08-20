@@ -1,0 +1,65 @@
+@import url(reset.css);
+
+.main_wrap{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	width:100%;
+
+
+}
+.left_side{
+	background: url(../img/sdds.jpg) no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	width:36%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+
+}
+
+.left_side p:nth-child(1){
+	margin-left:2rem;
+	color: white;
+	font-size: 1.5rem;
+	font-weight: 500;
+	margin-top: 3rem;
+}
+.left_side p:nth-child(2){
+	color:white;
+	font-size: 0.6rem;
+	margin-left:2rem;
+}
+.left_side p:nth-child(3){
+	font-size: 2rem;
+	color: white;
+	margin-top:18rem;
+	margin-left:2rem;
+}
+.left_side p:nth-child(4){
+	font-size: 0.8rem;
+	color:gray;
+	margin-left:2rem;
+}
+.left_side .left_side_footer p{
+font-size: 0.8rem;
+display: inline-block;
+font-weight: 400;
+}
+.left_side .left_side_footer button{
+	padding:5px 12px;
+	background: transparent;
+	color:white;
+	border: 1px solid white;
+	border-radius: 5px;
+	margin-left: 10px;
+}
+.left_side_footer{
+	margin-bottom: 8.2rem;
+}

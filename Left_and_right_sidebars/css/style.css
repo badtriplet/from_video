@@ -1,0 +1,182 @@
+@import url(reset.css);
+
+.main_wrap{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	width:100%;
+
+
+}
+.left_side{
+	background: linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../img/sdds.jpg) no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	width:36%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+
+}
+
+.left_side p:nth-child(1){
+	margin-left:2rem;
+	color: white;
+	font-size: 1.5rem;
+	font-weight: 500;
+	margin-top: 3rem;
+}
+.left_side p:nth-child(2){
+	color:white;
+	font-size: 0.6rem;
+	margin-left:2rem;
+}
+.left_side p:nth-child(3){
+	font-size: 2rem;
+	color: white;
+	margin-top:18rem;
+	margin-left:2rem;
+	margin-bottom: 1rem;
+}
+.left_side p:nth-child(4){
+	font-size: 0.8rem;
+	color:gray;
+	margin-left:2rem;
+}
+.left_side .left_side_footer p{
+font-size: 0.8rem;
+display: inline-block;
+font-weight: 400;
+}
+.left_side .left_side_footer button{
+	padding:8px 12px;
+	background: transparent;
+	color:white;
+	font-weight: 300;
+	border: 1px solid white;
+	border-radius: 5px;
+	margin-left: 10px;
+}
+.left_side .left_side_footer button:hover{
+	background: white;
+	color:gray;
+}
+.left_side_footer{
+	margin-bottom: 7rem;
+}
+.right_side{
+	width:64%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+}
+.right_side_wrap{
+	max-width: 32rem;
+}
+.right_side_wrap h1{
+	margin-top:4rem;
+	margin-bottom: 4rem;
+	font-size: 1.8rem;
+
+}
+.form_row{
+	width:100%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.form_row_label{
+	display: block;
+	text-align: left;
+	width:100%;
+	font-size: 0.8rem;
+	font-weight: 400;
+	margin-bottom: 1rem;
+
+}
+.form_row_input,
+.form_row_button{
+	width: 100%;
+}
+.form_row_input input{
+	width: 100%;
+	max-width: 32rem;
+	padding:1.1rem 2rem;
+	border:1px solid #cdd9e7;
+	border-radius: 4px;
+	margin-bottom: 2rem;
+}
+.form_row_input input:focus{
+	border-color: #1f87fb;
+}	
+.form_row_button input{
+	width: 100%;
+	max-width: 32rem;
+	padding:1.1rem 2rem;
+	border:1px solid #1f87fb;
+	border-radius: 4px;
+	background: #1f87fb;
+	color:white;
+	margin-bottom: 4rem;
+}
+.form_row_button input:hover{
+	background: #4c9ffc;
+}
+.form_row_text{
+	font-size: 0.7rem;
+	color:gray;
+	margin-bottom: 2rem;
+}
+.form_row_social{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	width:100%;
+}
+.form_row_social button{
+	width: 50%;
+	padding:1.1rem 2rem;
+	border:1px solid #cdd9e7;
+	color: #4e5961;
+	background: #eef2f7;
+	letter-spacing: 0.1rem;
+	font-weight: 300;
+	margin-bottom: 4rem;
+}
+.form_row_social button:nth-child(1){
+	border-radius: 4px 0 0 4px;
+}
+.form_row_social button:nth-child(2){
+	border-radius:0 4px  4px 0;
+	border-left:0.5px;
+}
+.form_row_social button:hover{
+	background:#f1f5f9;
+}
+.form_row_politics{
+	color:gray;
+	text-align: center;
+	font-size: 0.7rem;
+}
+.form_row_politics a{
+	color:gray;
+}
+.form_row_politics a:hover{
+	color:#1f87fb;
+}
